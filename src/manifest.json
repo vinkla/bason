@@ -1,0 +1,20 @@
+{
+  "name": "Bason",
+  "short_name": "Bason",
+  "version": "0.0.0",
+  "description": "A lightweight JSON viewer extension for Chromium based browsers.",
+  "homepage_url": "https://github.com/vinkla/bason",
+  "manifest_version": 3,
+  "minimum_chrome_version": "100",
+  "permissions": ["activeTab"],
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["<all_urls>"],
+      "js": ["bason.js"]
+    }
+  ]
+}
