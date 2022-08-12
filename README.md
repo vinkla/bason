@@ -17,5 +17,5 @@ Format and prettify JSON data to make it human readable in browsers such as Brav
 
 1. `npm install`
 2. `npm build`
-3. Enable _Developer mode_ on `chrome://extensions/`
-4. _Load unpacked_ and select the `build` directory
+3. Enable developer mode on `chrome://extensions/`
+4. Load unpacked and select the `build` directory
