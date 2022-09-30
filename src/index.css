@@ -9,13 +9,6 @@ pre {
   word-wrap: break-word;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    filter: invert(1);
-    background-color: #222;
-  }
-
-  strong {
-    font-weight: normal;
-  }
+strong {
+  font-weight: normal;
 }
